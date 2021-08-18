@@ -1,0 +1,688 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: typold;
+    src: url(font/The\ Northern\ Block\ Ltd\ -\ Typold\ Black.otf);
+}
+@font-face {
+    font-family: Haettenschweiler;
+    src: url(font/Haettenschweiler.ttf);
+}
+@font-face {
+    font-family: monospassada;
+    src: url(font/MonospaceTypewriter.ttf);
+}
+
+body {
+    background: url(img/background.png);
+    width: auto;
+    height: 100vh;
+    font-family: 'microsoft-yi-baiti-regular';
+    transition: 2s;
+}
+
+li {
+    list-style: none;
+}
+
+strong {
+    color: rgba(255, 255, 255, 0.808);
+}
+
+/* menu/nav */
+
+nav {
+    width: 150px;
+    height: 100%;
+    position: fixed;
+    border-right: 1px solid black;
+    padding: 10px;
+    transition: 2s;
+}
+
+.menu div {
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    margin: 4px;
+    cursor: pointer;
+    display: none;
+}
+/* logo do menu */
+
+nav img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* numeros do menu */
+
+.nav-item {
+    width: 100px;
+    text-align: center;
+    margin: 0px;
+    margin-top: 1.3rem;
+}
+
+.nav-item ul {
+    position: absolute;
+    z-index: 1;
+    font-size: 65px;
+    left: 24px;
+    margin-bottom: 3px;
+    color: rgba(128, 128, 128, 0.116);
+}
+.nav-item li {
+    margin-top: 1.3rem;
+}
+.nav-item  label {
+    font-size: 65px;
+}
+/* links menu */
+
+.nav-link li {
+    margin-top: 80px;
+    position: relative;
+    font-size: 18px;
+    z-index: 2;
+    color: rgb(110, 14, 14);
+    left: 20px;
+    font-family: arial;
+    margin-bottom: -20px;
+}
+.nav-link a {
+    color: #b3b3b3;
+}
+/* conteúdo sessão 01*/
+
+.container1 {
+    left: 18%;
+    position: relative;
+    display: inline-block;
+    max-width: 400px;
+    margin-top: 6rem;
+}
+
+.container1 h1 {
+    position: absolute;
+    font-size: 98px;
+    letter-spacing: 0px;
+    color: rgba(85, 82, 82, 0.158);
+}
+
+.container1 h2 {
+    font-size: 50px;
+    color: #8E9093;
+}
+
+.container-p {
+    margin-top: 18px;
+    margin-bottom: -10px;
+    color: #AFAFAF;
+    letter-spacing: 0.4px;
+}
+.descricaoempresa {
+    color: #87898b;
+    font-size: 18px;
+    
+}
+
+.container1 h3 {
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #8E9093;
+    letter-spacing: 0.4px;
+    font-size: 22px;
+}
+
+.container-p2 {
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: justify;
+    width: 420px;
+    line-height: 19px;
+    color: #AFAFAF;
+    letter-spacing: 0.4px;
+}
+
+/*conteúdo sessão 1 > imgs */
+
+.container-grid {
+    display: flex;
+    width: 239px;
+    margin: 0px auto;
+    margin-top: -255px;
+    text-align: justify;
+    margin-left: 54%;
+}
+
+.coluna-img {
+    margin-right: 13px;
+}
+.coluna-img p {
+    color: #AEAEAE;
+    line-height: 20px;
+    font-family: arial;
+    font-size: 15px;
+    text-align: start;
+}
+.coluna-img h4 {
+    color: #AEAEAE;
+    font-size: 24px;
+    text-align: start;
+}
+.controle  {
+    width: 55px;
+    margin-top: 110px;
+}
+
+.banner {
+    width: 146px;
+}
+.banner:hover {
+    height: 166px;
+    cursor: pointer;
+    margin-right: 0.2rem;
+    margin-left: 0.5rem;
+    transition: 0.4s;
+}
+
+/* conteudo sessão 2 imgs */
+
+.container2 {
+    left: 18%;
+    position: relative;
+    display: inline-block;
+    max-width: 400px;
+    margin-top: 10rem;
+}
+
+.number {
+    position: absolute;
+    font-size: 98px;
+    letter-spacing: 0px;
+    color: rgba(85, 82, 82, 0.158);
+}
+
+.container-titulo {
+    margin-top: 18px;
+    margin-bottom: -10px;
+    color: #AFAFAF;
+    letter-spacing: 0.4px;
+}
+
+.container2 h2 {
+
+    font-size: 50px;
+    color: #8E9093;
+}
+
+.container {
+
+    display: flex;
+    margin: 30px auto;
+    margin-left: 18%;
+}
+
+.img-news {
+    width: 203px;
+    height: 420px;
+    margin-right: 14px;
+    background: url(img/plan-news/base.png) no-repeat top right;
+    background-color: #282828;
+}
+.img-news h5 {
+    max-width: 130px;
+    background-color: #929497af;
+    padding-left: 4px;
+    margin-left: 6px;
+    margin-bottom: 18px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #1a1a1a;
+}
+
+.img-news h2 {
+    font-size: 19px;
+    text-align: left;
+    padding: 4px 10px 6px 10px;
+    color: #858689;
+
+}
+
+.img-news p {
+    padding: 10px;
+    font-size: 14px;
+    color: #A3A3A3;
+    font-family: arial;
+}
+.mais {
+    display: none;
+}
+
+.img-news img {
+    width: 203px;
+}
+.botao {
+    padding: 10px;
+    margin-top: 2rem;
+    border: none;
+    height: 15px;
+    font-size: 9px;
+}
+
+.botao > button > img {
+    width: 11px;
+}
+.botao > button > img:hover {
+    width: 11px;
+    height: 0px;
+    border-top-right-radius: 0;
+    transition: none;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    border: none;
+    font-size: 11px;
+}
+
+
+.img-news img:hover {
+    width: 205px;
+    height: 140px;
+    border-top-right-radius: 60%;
+    transition: all 0.6s;
+    
+}
+
+/* conteudo sessão ultima */
+.container3 {
+    left: 18%;
+    position: relative;
+    display: inline-block;
+    max-width: 400px;
+    margin-top: 12rem;
+}
+.container3 h1 {
+    position: absolute;
+    font-size: 98px;
+    letter-spacing: 0px;
+    color: rgba(85, 82, 82, 0.158);
+}
+.container3 h2 {
+    margin-top: 2rem;
+    font-size: 50px;
+    color: #8E9093;
+}
+.container-p3 {
+    margin-top: 1.3rem;
+    font-size: 15px;
+    text-align: start;
+    width: 420px;
+    line-height: 19px;
+    font-family: arial;
+    color: #AFAFAF;
+    letter-spacing: 0.4px;
+
+}
+
+.divulgacao {
+    margin-top: -27rem;
+    margin-left: 48rem;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    margin-bottom: 20px;
+}
+.divulgacao div ul {
+    display: inline-flex;
+    margin-top: 1rem;
+}
+.divulgacao div li {
+    margin-right: 10px;
+}
+.divulga-banner {
+    width: 160px;
+    height: 200px;
+    margin-bottom: 4rem;
+}
+.divulga-banner p {
+    margin-bottom: 1rem;
+    font-family: arial;
+    color: #A3A3A3;
+    font-size: 14px;
+}
+.links {
+    margin-top: 4rem;
+    font-size: 13px;
+
+}
+.links-plan {
+    margin-top: 33px;
+}
+.links-sp {
+    margin-top: 37px;
+}
+.links-rs {
+    margin-top: 38px;
+}
+.links-full {
+    margin-top: 42px;
+}
+p a {
+    color: #565758;
+    font-family: arial;
+}
+a {
+    text-decoration: none;
+}
+
+
+.divulga-banner h2 {
+    color: #8E9093;
+    margin-bottom: 2rem;
+    font-size: 20px;
+    font-family: arial;
+}
+
+/*formulario*/
+
+
+.formulario {
+
+    width: 500px;
+    margin-left: 240px;
+    margin-top: 2rem;
+}
+.formulario label {
+    margin-left: 1rem;
+    color: #AEAEAE;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#nome {
+    border-top-right-radius: 5rem;
+    width: 450px;
+    height: 19px;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    border: 0.5px solid rgba(0, 0, 0, 0.664);
+    background-color: #2828281a;
+}
+
+#email {
+    border-top-right-radius: 5rem;
+    width: 160px;
+    height: 19px;
+    margin-bottom: 1rem;
+    border: 0.5px solid rgba(0, 0, 0, 0.664);
+    background-color: #2828281a;
+}
+
+#tel {
+    width: 150px;
+    height: 19px;
+    margin-bottom: 1rem;
+    border: 0.5px solid rgba(0, 0, 0, 0.664);
+    background-color: #2828281a;
+    border-top-right-radius: 5rem;
+}
+
+#msg {
+    border-top-right-radius: 2rem;
+    border: 0.5px solid rgba(0, 0, 0, 0.664);
+    background-color: #2828281a;
+    text-align: start;
+    width: 450px;
+    height: 100px;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.captcha {
+    height: 3.6rem;
+    margin-left: 1rem;
+}
+
+.formulario button {
+    margin-left: 1rem;
+    margin-top: 1.4rem;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    padding-bottom: 1rem;
+}
+.formulario button:hover {
+    font-size: 20px;
+}
+
+/*responsividade*/
+
+@media (max-width: 1000px) {
+    nav {
+        top: 0px;
+        width: 100%;
+        height: 6vh;
+        display: flex;
+    }    
+    nav > img {
+        position: fixed;
+        display: flex;
+        margin: 0px auto;
+    }
+    .banner:hover {
+        transition: none;
+    }
+    .nav-item, .nav-link {
+        display: none;
+    }
+    .menu div{
+        display: flex;
+    }
+    .container1 {
+        left: 18%;
+        position: relative;
+        display: block;
+        max-width: 150px;
+        margin-top: 6rem;
+    }
+    .container1 h1 {
+        position: absolute;
+        font-size: 70px;
+        letter-spacing: 0px;
+        color: rgba(85, 82, 82, 0.158);
+    }
+    .container1 h3 {
+        margin-top: 24px;
+        margin-bottom: 15px;
+        color: #8E9093;
+        letter-spacing: 0.4px;
+        font-size: 22px;
+        display: flex;
+    }
+    
+    .container-p {
+        margin-top: 18px;
+        margin-bottom: -10px;
+        color: #AFAFAF;
+        letter-spacing: 0.4px;
+    }
+    .descricaoempresa {
+        color: #87898b;
+        font-size: 16px;
+        display: flex;
+        width: 150px;
+        
+    }
+    .container-grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 239px;
+        margin-top: 22px;
+        text-align: justify;
+        margin-left: 12rem;
+    }
+
+    .container {
+
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin: 30px auto;
+        margin-left: 18%;
+    }
+    
+    .img-news {
+        width: 203px;
+        height: 420px;
+        margin-right: 14px;
+        background: url(img/plan-news/base.png) no-repeat top right;
+        background-color: #282828;
+    }
+    .divulgacao {
+        margin-top: 3rem;
+        margin-left: 11rem;
+        display: grid;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 780px) {
+    nav {
+        display: inline-block;
+        width: 100vh;
+    }
+    main {
+        margin-right: 0px;
+        width: auto;
+        align-items: center;
+        justify-items: center;
+        margin: 0px auto;
+    }
+    body {
+        width: auto;
+    }
+    .container1 {
+    left: 5%;
+    position: relative;
+    display: inline-block;
+    max-width: 328px;
+    margin-top: 10rem;
+    }
+    .container-p2 {
+        font-size: 20px;
+        width: 284px;
+        text-align: justify;
+        line-height: 24px;
+        margin-left: 30px;
+
+    }
+    .container1 h1 {
+        position: absolute;
+        font-size: 70px;
+        letter-spacing: 0px;
+        color: rgba(85, 82, 82, 0.158);
+    }
+    .container1 h3 {
+        margin-top: 24px;
+        margin-bottom: 15px;
+        color: #8E9093;
+        letter-spacing: 0.4px;
+        font-size: 22px;
+        display: flex;
+        margin-left: 30px;
+    }
+    
+    .container-p {
+        margin-top: 18px;
+        margin-bottom: -10px;
+        color: #AFAFAF;
+        letter-spacing: 0.4px;
+    }
+    .descricaoempresa {
+        color: #87898b;
+        font-size: 16px;
+        display: flex;
+        width: 150px;
+        margin-right: 0px;
+        margin-left: 30px;
+        
+    }
+    .container-grid {
+        display: grid;
+        grid-template-columns: auto;
+        width: 239px;
+        margin-top: 22px;
+        text-align: justify;
+        margin-left: 2rem;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: auto;
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .img-news {
+        margin-bottom: 30px;
+        width: 339px;
+        height: 420px;
+        margin-right: 14px;
+        background: url(img/plan-news/base.png) no-repeat top right;
+        background-color: #282828;
+    }
+    .img-news > img {
+        width: 339px;
+    }
+    .divulgacao {
+        margin-top: 3rem;
+        margin-left: 1rem;
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-bottom: 20px;
+    }
+    .banner {
+        width: 318px;
+    }
+    .banner:hover {
+        height: 350px;
+    }
+    .formulario {
+
+        width: 500px;
+        margin-left: 20px;
+        margin-top: 2rem;
+    }
+    .container3 {
+        left: 7%;
+        position: relative;
+        display: inline-block;
+        max-width: 400px;
+        margin-top: 12rem;
+    }
+    .container-p3 {
+        margin-top: 1.3rem;
+        font-size: 18px;
+        text-align: start;
+        width: 334px;
+        line-height: 19px;
+        font-family: arial;
+        color: #AFAFAF;
+        letter-spacing: 0.4px;
+    
+    }
+    .contato > label {
+        display: block;
+    }
+    #nome, #msg{
+        width: 221px;
+    }
+}

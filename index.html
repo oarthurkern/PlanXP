@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <nav>        
+                <img src="img/logo-plan.png" alt="log-plan">
+                    <button id="botao-menu" class="botao-menu">
+                        <div class="menu">
+                            <div class="linha1"></div>
+                            <div class="linha2"></div>
+                            <div class="linha3"></div>
+                        </div>
+                    </button>
+                <div class="nav-item">
+                    <ul>
+                        <li>01.</li>
+                        <li><label for="#primeiro">02.</li>
+                        <li><label for="#terceiro">03.</li>
+                        <li><label for="#ultimo">04.</li>
+                        <li><label for="#ultimo">05.</li>
+                    </ul>
+                </div>
+                <ul class="nav-link" id="nav-link">
+                    <li><a href="#primeiro" style="transition: 1s;">/QUEM SOMOS</a></li>
+                    <li><a href="#primeiro" style="transition: 1s;">/O QUE FAZEMOS</a></li>
+                    <li><a href="#terceiro" style="transition: 1s;">/PLAN NEWS</a></li>
+                    <li><a href="#ultimo" style="transition: 1s;">/NOSSOS CLIENTES</a></li>
+                    <li><a href="#ultimo" style="transition: 1s;">/CONTATO</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container1" id="primeiro">
+            <h1>02.</h1>
+            <p class="container-p">/O que fazemos</p>
+            <h2>/Games</h2>
+            <h3>Desenvolvimento de Games digitais.</h3>
+            <p class="descricaoempresa">Empresa especializada em desenvolvimento games e gamificação.</p>
+            <p class="container-p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur inventore exercitationem voluptates blanditiis quam nam cupiditate corrupti adipisci fugiat consequatur impedit similique, expedita ullam deleniti culpa repudiandae, corporis accusamus eaque.</p>
+        </div>
+        <section class="container-grid" id="primeiro">
+            <div class="coluna-img">
+                <img class="banner" src="img/realizações/smartphones.png" alt="smartphones">
+                <p>A <strong>PlanXP</strong> tem uma equipe qualificada para o <br><strong>desenvolvimento de jogos digitais</strong> para <strong>dispositivos móveis</strong> (smartphones, tablets e afins).</p>
+            </div>
+            <div class="coluna-img">
+                <img class="banner" src="img/realizações/fone.png" alt="headphone">
+                <p>Desenvolvemos games para anunciar seus produtos e serviços, através da <strong>gamificação</strong> (aplicações que utilizam dinâmicas de jogos para o engajamento de usuários, resolução de problemas e melhoria no aprendizado).</p>
+            </div>
+            <div class="coluna-img">
+                <img class="banner" src="img/realizações/player.png" alt="usuário">
+                <p>Utilizando as últimas tecnologias para a <strong>criação de games</strong>, trabalhamos de acordo com as necessidades dos clientes, sempre buscando oferecer o resultado que ele busca.</p>
+            </div>
+            <div class="coluna-img">
+                <img class="controle"src="img/realizações/controle.png" alt="smartphones">
+                <h4>Experimente inovar com a <strong>PlanXP</strong> para <strong>desenvolver os seus jogos digitais!</strong></h4>
+            </div>
+        </section>
+        <div class="container2" id="segundo">
+            <h1 class="number">03.</h1>
+            <p class="container-titulo">/Plan news</p>
+            <h2>/Cases Games</h2>
+        </div>
+        
+        <section class="container" id="terceiro">
+            <div id="img-news" class="img-news">
+                <img src="img/plan-news/ska.png" alt="ska">
+                <h5>SKA</h5>
+                <h2>Plan cria o novo site da SKA</h2>
+                <p>Aliquam ullamcorper augue a ligula aliquam rhancus. Nullam accumasan auctor elementum Nam fermentum matti ligula vulputate bibendum<span id="pontos">...</span><span class="mais" id="mais"> Nullam accumasan auctor elementum Nam fermentum matti ligula vulputate bibendum</span></p>
+                <div class="botao">
+                    <button onclick="saibamais()" id="button">SAIBA MAIS<img src="img/plus/flecha.png"></button>
+                </div>
+            </div>
+            <div id="img-news" class="img-news">
+                <img src="img/plan-news/tintas-killing.png" alt="tintas-killing">
+                <h5>TINTAS KILLING</h5>
+                <h2>Plan cria o novo site para a Tintas Killing</h2>
+                <p>Aliquam ullamcorper augue a ligula aliquam rhancus. Nullam accumasan auctor elementum Nam fermentum <span id="pontos2">...</span><span class="mais"  id="mais2"> Aliquam ullamcorper augue a ligula aliquam rhancus. Nullam accumasan auctor elementum Nam fermentum matti ligula vulputate bibendum</span></p>
+                <div class="botao">
+                    <button  onclick="saibamais2()" id="button2">SAIBA MAIS<img src="img/plus/flecha.png"></button>
+                </div>
+            </div>
+            <div id="img-news"  class="img-news">
+                <img src="img/plan-news/cargo-br.png" alt="cargo-br">
+                <h5>CARGO BR</h5>
+                <h2>Estamos desenvolvendo o novo site da CargoBR</h2>
+                <p>Aliquam ullamcorper augue a ligula aliquam rhancus. Nullam accumasan auctor elementum Nam fermentum <span id="pontos3">...</span><span class="mais"  id="mais3"> Nullam accumasan auctor elementum Nam fermentum matti ligula vulputate bibendum</span></p>
+                <div class="botao">
+                <button onclick="saibamais3()" id="button3">SAIBA MAIS<img src="img/plus/flecha.png"></button>
+                </div>
+            </div>
+        
+            <div id="img-news"  class="img-news">
+                <img src="img/plan-news/xalingo.png" alt="xalingo">
+                <h5>XALINGO</h5>
+                <h2>Clubinho Xalingo com novidades</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, aliquid. Iusto possimus veritatis<span id="pontos4">...</span><span class="mais" id="mais4"> dignissimos ea aut? Iure mollitia cumque quibusdam molestias veritatis reprehenderit autem.</span></p>
+                <div class="botao">
+                    <button onclick="saibamais4()" id="button4">SAIBA MAIS<img src="img/plus/flecha.png"></button>
+                </div>
+            </div>
+            <div id="img-news"  class="img-news">
+                <img src="img/plan-news/aromatic.png" alt="aromatic">
+                <h5>AROMATIC</h5>
+                <h2>Novo site da Aromatic no ar</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, aliquid. Iusto possimus veritatis magnam <span id="pontos5">...</span><span  class="mais" id="mais5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dolorem ut dicta inventore accusamus nesciunt maxime id, cumque similique </span></p>
+                <div class="botao">
+                    <button id="button5" onclick="saibamais5()">SAIBA MAIS<img src="img/plus/flecha.png"></button>
+                </div>
+            </div>
+        </section>
+        <div class="container3" id="ultimo">
+            <h1>05.</h1>
+            <h2>/Contato</h2>
+            <p class="container-p3">Gostou de saber mais sobre inovações tecnológicas e também quer oferecer novas esperiências aos seus clientes? Então entre em contato e marque um encontro real conosco para conversarmos sobre as infinitas possibilidades do mundo virtual.</p>
+        </div>
+        <div class="formulario" id="ultimo">
+            <form>
+                <label>Nome: <br> <input type="text" name="nome" id="nome"></label>
+                <div class="contato">
+                    <label>E-mail: <input type="email" name="email" id="email"></label>
+                    <label>Telefone: <input type="number" name="tel" id="tel"></label>
+                </div>
+                <label>Mensagem <input type="text" name="msg" id="msg"></label>
+            </form>
+            <img class="captcha" src="img/plus/captcha.png" alt="captcha"> <br>
+            <button>Enviar <img src="img/plus/flecha.png" alt=""></button>
+        </div>
+        <section>
+            <div class="divulgacao">
+                <div class="divulga-banner">
+                    <h2>Siga-nos</h2>
+                    <p>Fique sempre por dentro de todas as novidades da PlanXP e de todas empresas do Grupo Plan Marketing.</p>
+                    <ul>
+                        <li><a href="https://pt-br.facebook.com/planmkt/"><img src="img/plus/facebook.png" alt="facebook-icon" target="_blank" rel="external"></a></li>
+                        <li><a href="https://www.instagram.com/planmkt/?hl=pt-br"><img src="img/plus/instagram.png" alt="instagram-icon" target="_blank" rel="external"></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC6UjmsO2ICJvz5RnCwxdHlQ" target="_blank" rel="external"><img src="img/plus/youtube.png" alt="youtube-icon"></a></li>
+                    </ul>
+                </div>
+                    <div class="divulga-banner">
+                        <h2><img src="img/plus/location.png" alt=""> /RS</h2>
+                        <p>Rua Onze de Junho, 243 Novo Hamburgo/RS <br> Brasil <br> +55 5198229.0400</p>
+                        <p class="links-rs"><a href="https://bityli.com/BOc4U" target="_blank" rel="external">VER NO GOOGLE MAPS <img src="img/plus/flecha.png" alt="flexa"></a></p>
+                    </div>
+        
+                <div class="divulga-banner">
+                    <h2><img src="img/plus/location.png" alt=""> /SP</h2>
+                    <p>Rua Ibjaú, 355/Sala 1309 <br> São Paulo/SP <br> Brasil <br> +55 11 98871.8556</p>
+                    <p class="links-sp"><a href="https://bityli.com/e9T5Q" target="_blank" rel="external">VER NO GOOGLE MAPS <img src="img/plus/flecha.png" alt="flexa"></a></p>
+                </div>
+        
+                <div class="divulga-banner">
+                    <p><img src="img/plus/grupoplan.png" alt="grupoplanico"></p>
+                    <p>A Plan faz parte do Grupo Plan Marketing, um grupo de comunicação completo.</p>
+                    <p class="links-gp"><a href="https://www.planmkt.com.br/" target="_blank" rel="external">CONHEÇA <img src="img/plus/flecha.png" alt=""></a></p>
+                </div>
+        
+                <div class="divulga-banner">
+                    <p><img src="img/logo-plan.png" alt=""></p>
+                    <p>A PlanXP é especializada em realidade virtual, realidade aumentada e jogos.</p>
+                    <p class="links-plan"><a href="https://www.planxp.com.br/" target="_blank" rel="external">CONHEÇA <img src="img/plus/flecha.png" alt=""></a></p>
+                </div>
+        
+                <div class="divulga-banner">
+                    <p><img src="img/plus/fullup.png" alt="fullup.ico"></p>
+                    <p>A FullUP é uma agência especializada em branding, design e campanhas</p>
+                    <p class="links-full"><a href="https://www.planmkt.com.br/" target="_blank" rel="external">CONHEÇA <img src="img/plus/flecha.png" alt=""></a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
